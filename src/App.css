@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+@media(max-width: 768px){
+
+.form-control{
+	width:85% !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form .btn{
+	width: 85% !important;
+	background-color: #007bff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(max-width:991px){
+
+.thumbspacing{
+	padding-bottom: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkfontcolor{
+	color:white !important;
+	font-weight: 600;
+}
+
+.colorfontwhite{
+	color:white;
+}
+
+.posrelative{
+	position:relative;
+}
+
+.posabsolute{
+	position:absolute;
+}
+
+.blackbackground{
+	background-color: black;
+}
+
+@keyframes titlemove{
+  0%{left: -33rem;}
+  100%{left:0px;}
+}
+
+.titlesobre{
+	font-size: 3rem;
+	font-weight: 500;
+	animation-name: titlemove;
+	animation-duration: 1.3s;
+	animation-timing-function: linear;
+	animation-timing-function: ease;
+}
+
+.textcustomstyle{
+	font-size: 18px;
+}
+
+.thumbsstyle{
+	border-radius: 8px;
+}
+
+.thumbsstyle:hover{
+ opacity: 0.4;
+}
+
+.bottomcustomstyle{
+	width:100%;
+}
+
+.containerbottom{
+	width:100%;
+	background-color: black;
+}
+
+.navbar-light .navbar-toggler{
+	background-color: white;
+}
+
+.formcontainer .form-group .form-control{
+	margin-right: auto;
+	margin-left: auto;
+	width:650px;
+}
+
+form .btn{
+	width: 340px;
+    height: 55px;
+    background-color: black;
+}
+
+.iconsstyle{
+	width:50px;
+	height: auto;
+}
+
+@keyframes sobretextanimated{
+0%{right:-33rem;}
+100%{right:0;}
+}
+
+.sobre{
+animation-duration: 1.5s;
+animation-timing-function: ease;
+animation-name: sobretextanimated;
+}
+
+.avatarstyle{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:160px;
+	width:auto;
+}
+
+.icontech{
+	width:auto;
+	height:115px;
+}
+
+.linkfontcolor:hover{
+	color:rgb(0,105,217) !important;
+}
+
+.buttonmodalstyle{
+	width:100%;
+}
+
+.contacticon{
+	width:95px;
+}
+
+.widthadjust{
+	    flex: 0 0 100%;
+}
+
+.fontsizetitlecontact{
+	font-size:1.5rem;
+}
+
+.fontsizecontentcontact{
+	font-size: 1.3rem;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+    background-image: url('./imgs/chevron-right.png');
+}
+
+.carousel-control-prev .carousel-control-prev-icon{
+    background-image: url('./imgs/chevron-left.png');
+}
+
+.iconsstyle:hover{
+	border:solid;
+	border-color:black;
 }
