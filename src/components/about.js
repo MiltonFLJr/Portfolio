@@ -57,20 +57,20 @@ return(
       		<div className="container">
       			<div className="row">
 
-      				<div className="col-lg-3 col-md-12 col-sm-12  pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12  pb-4">
       					<img className="icontech" src={phpicon} />
       				</div>
 
 
-      				<div className="col-lg-3 col-md-12 col-sm-12  pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12  pb-4">
       					<img className="icontech" src={laravelicon} />
       				</div>
 
-      				<div className="col-lg-3 col-md-12 col-sm-12 pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12 pb-4">
       					<img className="icontech" src={css3icon} />
       				</div>
 
-      				<div className="col-lg-3 col-md-12 col-sm-12 pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12 pb-4">
       					<img className="icontech" src={html5} />
       				</div>
 
@@ -84,20 +84,20 @@ return(
       		<div className="container">
       			<div className="row">
 
-      				<div className="col-lg-3 col-md-12 col-sm-12 pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12 pb-4">
       					<img className="icontech" src={jqueryicon} />
       				</div>
 
 
-      				<div className="col-lg-3 col-md-12 col-sm-12 pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12 pb-4">
       					<img className="icontech" src={javascript} />
       				</div>
 
-      				<div className="col-lg-3 col-md-12 col-sm-12 pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12 pb-4">
       					<img className="icontech" src={reacticon} />
       				</div>
 
-      				<div className="col-lg-3 col-md-12 col-sm-12 pb-4">
+      				<div className="col-lg-3 col-md-6 col-sm-12 pb-4">
       					<img className="icontech" src={mysqlicon} />
       				</div>
 
