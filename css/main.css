@@ -1,0 +1,378 @@
+@media only screen and (max-width: 481px) {
+
+.navlinks li{
+  display: block !important;
+}
+
+.linksright{
+  float:none 0px !important;
+  margin-top: 0px !important;
+}
+
+.navlinks{
+  display:none;
+}
+
+.navlinksmobile{
+  width:100%;
+  background-color: black; 
+  padding:0;
+  margin:0;
+}
+
+.navlinksmobile li{
+  color:white;
+  display: inline;
+  padding-right: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navlinksmobile .linksright{
+  padding-right:12px !important;
+}
+
+.hambicon{
+  height: 30px;
+  padding-top: 6px;
+}
+
+.socialmediafootericon{
+  margin-top: 0px !important;
+}
+
+.socialmediafootericongit{
+  margin-top: -2px !important;
+}
+
+.navoptionsmobile li{
+  display: block;
+  padding-left: 0px !important;
+  margin-left: -29px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.navoptionsmobile li a{
+  text-decoration: none;
+}
+
+
+.navoptionsmobile li a:visited{
+  color:white;
+}
+
+.navoptionsmobile li a:hover{
+  color:gray;
+}
+
+.navoptionsmobile .project{
+  padding-bottom: 20px;
+}
+
+.navoptionsmobile{
+  display: none;
+}
+
+}  
+
+@media only screen and (min-width: 481px) {
+
+.navlinksmobile{
+  display:none;
+}
+
+.navoptionsmobile{
+  display:none;
+}
+
+}
+
+@media only screen and (max-width: 769px) {
+  
+.aboutme{
+  display: block !important;
+  width:100% !important;
+  padding-left: 20px;
+}
+
+.aboutmetitle{
+  padding-top: 40px;
+}
+
+.contacts table tr td{
+  padding-top: 15px;
+}
+
+.separator{
+  width:80% !important;
+}
+
+.projectdesc{
+  width:93% !important;
+}
+
+.projectcover{
+  width:100% !important;
+  height:auto !important;
+}
+
+.projectcover2 {
+    height: auto !important;
+    width:100% !important;
+}
+
+.aboutmetitle2{
+  padding-top: 17px;
+}
+
+.contacts table tr td {
+    padding-top: 0px;
+}
+
+.centercontent {
+    width: 90% !important;
+    padding-left: 20px;
+}
+
+.linkproject{
+width:90% !important;
+}
+
+}
+
+@media only screen and (min-width: 1201px) {
+ 
+
+ } 
+
+body{
+  margin:0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navlinks{
+  width:100%;
+  background-color: black; 
+  padding:0;
+  margin:0;
+}
+
+.navlinks li{
+  color:white;
+  display: inline;
+  padding-right: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.linksright{
+  float: right;
+  margin-top: 7px;
+}
+
+.linksright a{
+  text-decoration: none;
+}
+
+.linksright a:visited {
+  color: white;
+}
+
+.linksright a:hover {
+  color: gray;
+}
+
+.logolink{
+ padding-left: 10px;
+}
+
+.logo{
+  height:40px;
+}
+
+.twittericon{
+  height:45px;
+  padding-left: 25px;
+}
+
+.logoicon{
+ height:65px;
+}
+.likedinicon{
+ height:45px;
+}
+
+.menuicon{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.contactitem{
+  padding-right: 25px;
+}
+
+p{
+  color:white;
+}
+
+.paddingright{
+  padding-right:10px; 
+}
+
+.mlogo{
+  height:200px;
+  margin: 10px auto 20px;
+  display: block;
+  padding-top: 200px;
+}
+
+.avatarandjob{
+  background-color:rgb(238,238,238);
+  text-align: center;
+  padding-top:40px;
+  padding-bottom:40px;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+.avatar{
+  text-align: center;
+  height:100px;
+  border-radius: 60px;
+  border: 6px solid white;
+  outline: 1px solid gray;
+}
+
+.name{
+  font-size:50px;
+}
+
+.job{
+  font-size: 30px;
+}
+
+.aboutme{
+  padding-top: 60px;
+  display:flex;
+  margin: auto;
+  width: 700px;
+  padding-bottom: 40px;
+}
+
+.aboutmetitle{
+  font-size: 22px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.aboutmetext{
+
+}
+
+.block1{
+  padding-right:32px;
+}
+
+.contacticon{
+  height:30px;
+  padding-right: 7px;
+}
+
+.footer{
+  background-color: black;
+  height:40px;
+  width:100%;
+  color:white;
+  margin:0;
+  position: relative;
+}
+
+.footer ul li{
+  display: inline;
+}
+
+.footerbottom{
+position: fixed;
+bottom: 0;
+width:100%;
+}
+
+.credits{
+  position:absolute;
+  top:8px;
+  left:13px;
+}
+
+.socialmediafootericon{
+    height: 30px;
+    padding-right: 0px;
+   margin-top: -7px;
+}
+
+.socialmediafootericongit{
+  height: 30px;
+    padding-right: 7px;
+    margin-top: -7px;
+}
+
+.currentpage{
+  color:#2a9df4 !important;
+}
+
+.projecttitles{
+  background-color:rgb(238,238,238);
+  text-align: left;
+  padding-top:40px;
+  padding-bottom:40px;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.centercontent{
+  width:700px;
+  margin:auto;
+}
+
+.projectcover{
+ height:170px;
+}
+
+.aboutmetitle2{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.projectlink{
+  padding-bottom: 18px;
+}
+
+.separator{
+  border-top: 0px solid #bbb;
+  color:rgb(235,235,235);
+  width:700px;
+}
+
+.projectcover2{
+ height:132px;
+}
+
+.projectdesc{
+  width:100%;
+}
+
+.contacts table tr td a{
+text-decoration: none;
+}
+
+.contacts table tr td a:visited{
+color:black;
+}
+
+.contacts table tr td a:hover{
+color:#2a9df4;
+}
+
